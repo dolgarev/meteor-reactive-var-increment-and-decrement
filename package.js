@@ -1,7 +1,7 @@
 Package.describe({
   name: 'liberation:reactive-var-inc-and-dec',
   summary: 'Adds methods "inc" and "dec" to ReactiveVar',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/dolgarev/meteor-reactive-var-increment-and-decrement.git'
 });
 
