@@ -2,6 +2,7 @@ meteor-reactivevar-increment-and-decrement
 ====================
 Adds methods "inc" and "dec" to ReactiveVar.
 [![Build Status](https://travis-ci.org/dolgarev/meteor-reactive-var-increment-and-decrement.svg?branch=master)](https://travis-ci.org/dolgarev/meteor-reactive-var-increment-and-decrement)
+
 ```js
 var v = new ReactiveVar(1);
 v.inc();  // => 2
