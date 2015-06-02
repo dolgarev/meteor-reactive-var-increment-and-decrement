@@ -10,3 +10,8 @@ Package.onUse(function(api) {
   api.use('reactive-var');
   api.addFiles('inc_and_dec.js', 'client');
 });
+
+Package.on_test(function(api) {
+  api.use(['liberation:reactive-var-inc-and-dec', 'tinytest', 'reactive-var'], 'client');
+  api.add_files('test.js', 'client');
+});
